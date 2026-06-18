@@ -4,7 +4,7 @@
 
 CRBMiner 是专为 Cereblix（CRB / NeuroMorph `nm/1`）优化的 CPU 矿工。**开箱即用**——以 root 运行时自动启用 **1 GiB 大页 / performance governor / NUMA 本地数据集**，无需手动调优。在未手动调优的环境下，比同样未调优的 SRBMiner **快约 10–25%**。
 
-> ⚠️ 抽水：内置 **3% 开发者手续费**（流向 Cereblix 运营方钱包，与上游 XMRig 的 donate 机制同性质）。
+> ⚠️ 抽水：内置 **3% 开发者手续费**（流向 crbminer 开发者 / tutuit.xyz 矿池运营方钱包，与上游 XMRig 的 donate 机制同性质）。
 
 ---
 
@@ -66,7 +66,7 @@ echo 4096 | sudo tee /proc/sys/vm/nr_hugepages
 
 ## 许可证 / 源码
 
-CRBMiner 基于 **GPLv3** 的 `xmrig`（NeuroMorph 分叉）。完整对应上游源码见 **https://cereblix.com/xmrig-cereblix-src.tar.gz**；本项目的修改版源码可向运营方索取（在本仓库开 issue 即可）。
+CRBMiner 基于 **GPLv3** 的 `xmrig`（NeuroMorph 分叉）。完整对应上游源码见 **https://cereblix.com/xmrig-cereblix-src.tar.gz**；本项目的修改版源码可向 crbminer 开发者索取（在本仓库开 issue 即可）。
 
 ---
 
